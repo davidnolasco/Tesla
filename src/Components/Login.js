@@ -10,6 +10,7 @@ function Login() {
         <div>
             <img className="imgBG" src={Tesla}/>
             <main className="box">
+            <img className="imgBG" src={Tesla}/>
             <img className="imgT" src={teslabg}/>
                 <h2>Login</h2>
                 <form>
