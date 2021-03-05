@@ -2,15 +2,14 @@ import React from 'react';
 import particlesConfig from "../particles.json";
 import Particles from "react-tsparticles";
 //import Tesla from '../imgs/bg4.jpg';
-import teslabg from '../imgs/logo.png';
+//import teslabg from '../imgs/logo.png';
 import { Link } from "react-router-dom";
 
 function Login() {
     return (
         <div>
             <main className="box">
-            <img className="imgT" src={teslabg}/>
-            <img className="imgT" src={teslabg}/>
+            
                 <h2>Login</h2>
                 <form>
                     <div className="inputBox">
