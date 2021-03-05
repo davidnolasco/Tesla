@@ -1,7 +1,7 @@
 import React from 'react';
 import particlesConfig from "../particles.json";
 import Particles from "react-tsparticles";
-import Tesla from '../imgs/bg4.jpg';
+//import Tesla from '../imgs/bg4.jpg';
 import teslabg from '../imgs/logo.png';
 import { Link } from "react-router-dom";
 
