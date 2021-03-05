@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 function Login() {
     return (
         <div>
-            <img className="imgBG" src={teslabg}/>
             <main className="box">
+            <img className="imgBG" src={teslabg}/>
             <img className="imgT" src={teslabg}/>
                 <h2>Login</h2>
                 <form>
