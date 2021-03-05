@@ -1,5 +1,5 @@
 import React from 'react';
-import Tesla from '../imgs/bg4.png';
+import Tesla from '../imgs/bg4.jpg';
 import teslabg from '../imgs/logo.png';
 import { Link } from "react-router-dom";
 
