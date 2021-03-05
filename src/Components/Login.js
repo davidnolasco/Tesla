@@ -9,7 +9,7 @@ function Login() {
     return (
         <div>
             <main className="box">
-            <img className="imgBG" src={teslabg}/>
+            <img className="imgT" src={teslabg}/>
             <img className="imgT" src={teslabg}/>
                 <h2>Login</h2>
                 <form>
