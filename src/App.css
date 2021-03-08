@@ -4,13 +4,100 @@
 
 .App-logo {
     height: 40vmin;
-    pointer-events: none;
+    pointer-events: none; 
+}
+
+.Header1{
+    margin-right: 2px;
+}
+
+#car1{
+    background-image: url(imgs/models3.jpg);
+    height: 780px;
+    clear: both;
+    margin-top: -23px;
+    text-align: center;
+}
+
+#car2{
+    background-image: url(imgs/modelsX.jpg);
+    height: 780px;
+    clear: both;
+    margin-top: -23px;
+    text-align: center;
+}
+
+#car3{
+    background-image: url(imgs/modelsS.jpg);
+    height: 780px;
+    clear: both;
+    margin-top: -23px;
+    text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
         animation: App-logo-spin infinite 20s linear;
     }
+}
+
+.logo{
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 200px;
+    float: left;
+}
+
+.center{
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: 100px;
+    
+}
+
+.transbutton{
+    display: block;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 5px solid black;
+    float: left;
+    width: 180px;
+    height: 40px;
+    line-height: 35px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+.transbutton1{
+    display: block;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 5px solid white;
+    float: left;
+    width: 180px;
+    height: 40px;
+    line-height: 35px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.transbutton:hover{
+    background-color:black;
+    color: white;
+}
+
+.transbutton1:hover{
+    background-color:white;
+    color: black;
+}
+
+article .transbutton :last-child{
+    margin-right: 0;
 }
 
 .imgBG{
@@ -26,17 +113,6 @@
 .imgT{
     width: 100%;
     margin-bottom: 20px;
-}
-
-.App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
 }
 
 .App-link {
@@ -61,10 +137,6 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-}
-
-header {
-    display: none;
 }
 
 .box {

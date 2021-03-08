@@ -29,9 +29,9 @@ function Register() {
                                placeholder=""
                                required/>
                     </div>
-                    <button type="submit" name="" style={{ float: "left" }}
-                    >Submit</button>
+                    <button type="submit" name="" style={{ float: "left" }}>Submit</button>
                     <Link className="button" to="/login" style={{ float: "left" }}>Login</Link>
+                    <Link className="button" to="/home" style={{ float: "left" }}>Home</Link>
                 </form>
                 </view>
                 

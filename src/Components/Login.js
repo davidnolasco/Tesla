@@ -23,6 +23,7 @@ function Login() {
                     <div>
                         <button type="submit" name="" style={{ float: "left" }}>Submit</button>
                         <Link className="button" to="/register" style={{ float: "left" }}>Register</Link>
+                        <Link className="button" to="/home" style={{ float: "left" }}>Home</Link>
                     </div>
                 </form>
             </main>
